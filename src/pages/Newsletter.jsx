@@ -40,7 +40,7 @@ const Newsletter = () => {
           className="form-input"
           name="name"
           id="name"
-          defaultValue="Felipe"
+          placeholder="Felipe"
         />
       </div>
       {}
@@ -53,7 +53,7 @@ const Newsletter = () => {
           className="form-input"
           name="lastName"
           id="lastName"
-          defaultValue="Garzon"
+          placeholder="Garzon"
         />
       </div>
       {}
