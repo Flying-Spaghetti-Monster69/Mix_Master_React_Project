@@ -1,4 +1,3 @@
-import React from "react";
 import Wrapper from "../assets/wrappers/CocktailList";
 import CocktailCard from "./CocktailCard";
 
@@ -8,6 +7,8 @@ const CocktailList = ({ drinks }) => {
       <h4 style={{ textAlign: "center" }}>no matching cocktail found...</h4>
     );
   }
+
+  console.log(drinks);
 
   const formattedDrinks = drinks.map((item) => {
     const { idDrink, strDrink, strDrinkThumb, strAlcoholic, strGlass } = item;
